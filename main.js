@@ -60,7 +60,7 @@ container.addEventListener('click', setGradient)
 const openContact = () => {
   setTimeout(() => {
     contactHero.classList.remove('hidden')
-  }, 2000)
+  }, 3000)
 }
 
 openContact()
