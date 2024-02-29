@@ -2,6 +2,8 @@ const body = document.querySelector('body')
 const container = document.querySelector('#container')
 const colorText = document.querySelector('.color-text')
 const copyRight = document.querySelector('.copyright')
+const contactHero = document.querySelector('.contact-hero')
+const xBtn = document.querySelector('#button')
 
 const values = [
   '0',
@@ -53,3 +55,16 @@ function setGradient() {
 }
 
 container.addEventListener('click', setGradient)
+
+// OPEN - WINDOW
+const openContact = () => {
+  setTimeout(() => {
+    contactHero.classList.remove('hidden')
+  }, 2000)
+}
+
+openContact()
+
+xBtn.addEventListener('click', () => {
+  contactHero.classList.add('hidden')
+})
