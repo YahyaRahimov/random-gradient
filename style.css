@@ -133,7 +133,7 @@ a:hover {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border: 2px solid green;
+  border: 2px solid transparent;
   border-radius: 6px;
   padding: 10px;
   transition: all 0.4s ease;
